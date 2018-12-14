@@ -1,0 +1,195 @@
+body {
+    background-color: #F9F8EF;
+    font-family: sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    background-color: #1D4247;
+    color: #AB332D;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid #3FBEA9;
+}
+
+header {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+header h1 a {
+    text-decoration: none;
+}
+
+.Menu {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    list-style: none;
+    text-align: center;
+    color: #AB332D;
+}
+
+.Menu li {
+    background-color: #3FBEA9;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 4px solid #1D4247;
+}
+
+.Menu li a {
+    text-decoration: none;
+}
+
+.Menu li:hover {
+    opacity: .6;
+}
+
+footer {
+    color: #F9F8EF;
+    background-color: #1D4247;
+    height: 50 px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-top: 2px solid #3FBEA9;
+
+}
+
+footer p {
+    padding-left: 30px;
+    opacity: .8;
+
+}
+
+header h1:hover {
+    opacity: .95;
+}
+
+a {
+    color: #AB332D;
+}
+
+.bio {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.bio h3 {
+    display: inline-block;
+    text-align: center;
+    background-color: #1D4247;
+    width: 75%;
+    height: 100px;
+    padding: 30px;
+    border: 4px solid #3FBEA9;
+    color: #F9F8EF;
+}
+
+.bio h1 {
+    display: inline-block;
+    text-align: center;
+    background-color: #1D4247;
+    width: 75%;
+    height: 100px;
+    padding: 30px;
+    border: 4px solid #3FBEA9;
+    color: #F9F8EF;
+}
+
+.bio h1 a {
+    color: #F9F8EF;
+}
+
+.bio h1 a:hover {
+    opacity: .7;
+
+}
+
+.pic {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.pic img {
+    width: 40%;
+    display: inline-block;
+}
+
+.PICBIO {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Pic1 img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    border: 4px solid #1D4247;
+}
+ .Bio1 {
+        margin-top: 30px;
+    }
+
+    .Bio1 p {
+        background-color: #3FBEA9;
+        color: #F9F8EF;
+        width: 65%;
+        height: 400px;
+        margin: auto;
+        padding: 20px;
+        line-height: 2;
+        border: 4px solid #1D4247; 
+    }
+.picrow1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+.picrow1 img{
+    width: 80%;
+    margin: auto;
+    border: 4px solid #1D4247;
+}
+.picrow2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+.picrow2 img{
+    width: 80%;
+    margin: auto;
+    border: 4px solid #1D4247;
+    
+}
+h3{
+    text-align: center;
+    color: #AB332D;
+}
+h4{
+    text-align: center;
+    color: #AB332D;
+}
+.bio a{
+    color: #F9F8EF;
+}
+.infographic {
+    text-align: center;
+}
+.infographic img{
+    width: 75%;
+    border: 4px solid #1D4247;
+    margin: auto;
+
+}
+.select{
+    transform: scale(1.1);
+}
+.select h3{
+      color: #F9F8EF;
+}
